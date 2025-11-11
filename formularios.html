@@ -43,18 +43,53 @@
 
     </fieldset>
 
-<fieldset>
+
+
+    <fieldset>
+
     <legend>Idiomas</legend>
+        <br/>
+        Puntúa tu nivel de idiomas del 1 al 5: </br>
+        <br/>   
+        <input type="radio" name="idiomas" value="ingles" checked="checked" /> Inglés:
+        <br/>
+        <input type="radio" name="idiomas" value="frances" checked="checked" /> Francés:
+        <br/>
+        <input type="radio" name="idiomas" value="aleman" checked="checked" /> Alemán:
+        <br/>
 
-     <form action=" http://ncoge.com/phps/formulario.php" method="post">
-            <label for="">Puntúa tu nivel de idiomas del 1 al 5:</label> 
-            <input type="text" name="Nombre" value="" size="50" maxlength="50" />
-            <br>
-        </form>
+    </fieldset>
 
-</fieldset>
 
-<input type="image " name="enviar" src="accept.png"/>
+
+
+    <fieldset>
+
+        <legend>Dominio de los siguientes programas: </legend>
+        <input name="programas" type="checkbox" value="writer"/> Writer
+        <input name="programas" type="checkbox" value="calc"/> Calc
+        <input name="programas" type="checkbox" value="base"/> Base
+        <input name="programas" type="checkbox" value="impress"/> Impress
+
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Tranajo con el siguiente Sistema Operativo:</legend>
+            <label for="so">Sistema operativo</label> <br/>
+            <select id="so" name="so">
+            <option value="Linux" selected="selected">Linux</option>
+            <option value="windows">Windows</option>
+            <option value="mac">Mac</option>
+            <option value="otro">Otro</option>
+            </select>
+
+
+    </fieldset>
+
+    
+
+
 </body>
 
 </html>
