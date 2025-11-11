@@ -9,83 +9,86 @@
 
 <body>
 
-    <fieldset>
-        <legend>Datos personales</legend>
+    <table align="center" width="90%" border="2>
+        <tr>
+            <td>
 
-        <form action=" http://ncoge.com/phps/formulario.php" method="post">
-            <label for="nombre">Nombre:</label> 
-            <input type="text" name="Nombre" value="" size="50" maxlength="50" />
-            <br>
-        </form>
+            <fieldset>
+                <legend>Datos personales</legend>
+                    <label for="nombre">Nombre:</label> 
+                    <input type="text" name="Nombre" value="" size="50" maxlength="30" />
+                    <br>
+                </form>
 
-            <br>
+                    <br>
 
-        <form action=" http://ncoge.com/phps/formulario.php" method="post">
-            <label for="nombre">Apellidos:</label> 
-            <input type="text" name="Apellidos" value="" size="50" maxlength="50" />
-            <br>
-        </form>
+                <form action=" http://ncoge.com/phps/formulario.php" method="post">
+                    <label for="nombre">Apellidos:</label> 
+                    <input type="text" name="Apellidos" value="" size="50" maxlength="30" />
+                    <br>
+                </form>
 
-            <br>
+                    <br>
 
-        <form action=" http://ncoge.com/phps/formulario.php" method="post">
-            <label for="nombre">Correo:</label> 
-            <input type="text" name="Correo" value="" size="50" maxlength="50" />
-            <br>
-        </form>
+                <form action=" http://ncoge.com/phps/formulario.php" method="post">
+                    <label for="nombre">Correo:</label> 
+                    <input type="text" name="Correo" value="" size="50" maxlength="30" />
+                    <br>
+                </form>
 
-            <br>
+                    <br>
 
-        <form action=" http://ncoge.com/phps/formulario.php" method="post">
-            <label for="nombre">Hobbies:</label> 
-            <textarea id="description" name="Hobbies" cols="40" rows="5"></textarea>
-        </form>
+                <form action=" http://ncoge.com/phps/formulario.php" method="post">
+                    <label for="nombre">Hobbies:</label> 
+                    <textarea id="description" name="Hobbies" cols="40" rows="5"></textarea>
+                </form>
 
-    </fieldset>
+            </fieldset>
+        </td>
+        </tr>
+        </table>
 
+            <fieldset>
 
+            <legend>Idiomas</legend>
+                <br/>
+                Puntúa tu nivel de idiomas del 1 al 5: </br>
+                <br/>   
+                <input type="radio" name="espanol" value="1" checked="checked" />
+                <br/>
+                <input type="radio" name="espanol" value="2" checked="checked" />
+                <br/>
+                <input type="radio" name="espanol" value="3" checked="checked" />
+                <br/>
 
-    <fieldset>
-
-    <legend>Idiomas</legend>
-        <br/>
-        Puntúa tu nivel de idiomas del 1 al 5: </br>
-        <br/>   
-        <input type="radio" name="idiomas" value="ingles" checked="checked" /> Inglés:
-        <br/>
-        <input type="radio" name="idiomas" value="frances" checked="checked" /> Francés:
-        <br/>
-        <input type="radio" name="idiomas" value="aleman" checked="checked" /> Alemán:
-        <br/>
-
-    </fieldset>
-
-
-
-
-    <fieldset>
-
-        <legend>Dominio de los siguientes programas: </legend>
-        <input name="programas" type="checkbox" value="writer"/> Writer
-        <input name="programas" type="checkbox" value="calc"/> Calc
-        <input name="programas" type="checkbox" value="base"/> Base
-        <input name="programas" type="checkbox" value="impress"/> Impress
-
-    </fieldset>
+            </fieldset>
 
 
-    <fieldset>
-        <legend>Tranajo con el siguiente Sistema Operativo:</legend>
-            <label for="so">Sistema operativo</label> <br/>
-            <select id="so" name="so">
-            <option value="Linux" selected="selected">Linux</option>
-            <option value="windows">Windows</option>
-            <option value="mac">Mac</option>
-            <option value="otro">Otro</option>
-            </select>
 
 
-    </fieldset>
+            <fieldset>
+
+                <legend>Dominio de los siguientes programas: </legend>
+                <input name="programas" type="checkbox" value="writer"/> Writer
+                <input name="programas" type="checkbox" value="calc"/> Calc
+                <input name="programas" type="checkbox" value="base"/> Base
+                <input name="programas" type="checkbox" value="impress"/> Impress
+
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Tranajo con el siguiente Sistema Operativo:</legend>
+                    <label for="so">Sistema operativo</label> <br/>
+                    <select id="so" name="so">
+                    <option value="Linux" selected="selected">Linux</option>
+                    <option value="windows">Windows</option>
+                    <option value="mac">Mac</option>
+                    <option value="otro">Otro</option>
+                    </select>
+
+
+            </fieldset>
 
     
 
