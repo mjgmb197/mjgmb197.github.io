@@ -8,13 +8,12 @@
 </head>
 
 <body>
-
-    <table align="center" width="90%" border="2>
+    <table>
         <tr>
             <td>
 
             <fieldset>
-                <legend>Datos personales</legend>
+                <legend><strong>Datos personales</strong></legend> <br>
                     <label for="nombre">Nombre:</label> 
                     <input type="text" name="Nombre" value="" size="50" maxlength="30" />
                     <br>
@@ -50,17 +49,36 @@
 
             <fieldset>
 
-            <legend>Idiomas</legend>
-                <br/>
-                Puntúa tu nivel de idiomas del 1 al 5: </br>
+                <table>
+                    <tr>
+                        <td>
+            <legend><strong>Idiomas</strong></legend>
                 <br/>   
-                <input type="radio" name="espanol" value="1" checked="checked" />
+                <label for="idiomas"> Puntúa tu nivel de idiomas del 1 al 5:</label> 
+                <br>
+                <input name="idioma1" type="radio" value="1"/> Inglés
+                <input type="radio" name="idiomas" value="1" checked="checked" /> 1 
+                <input type="radio" name="idiomas" value="2"  /> 2 
+                <input type="radio" name="idiomas" value="3"  /> 3
+                <input type="radio" name="idiomas" value="4"  /> 4
+                <input type="radio" name="idiomas" value="5" /> 5
                 <br/>
-                <input type="radio" name="espanol" value="2" checked="checked" />
-                <br/>
-                <input type="radio" name="espanol" value="3" checked="checked" />
+                
+                <input name="idioma2" type="radio" value="1"/> Francés
+                <input type="radio" name="idiomas" value="1" checked="checked" /> 1 
+                <input type="radio" name="idiomas" value="2"  /> 2 
+                <input type="radio" name="idiomas" value="3"  /> 3
+                <input type="radio" name="idiomas" value="4"  /> 4
+                <input type="radio" name="idiomas" value="5"  /> 5
                 <br/>
 
+                <input name="idioma3" type="radio" value="1"/> Alemán
+                <input type="radio" name="idiomas" value="1" checked="checked" /> 1 
+                <input type="radio" name="idiomas" value="2"  /> 2 
+                <input type="radio" name="idiomas" value="3"  /> 3
+                <input type="radio" name="idiomas" value="4" /> 4
+                <input type="radio" name="idiomas" value="5" /> 5
+                <br/>
             </fieldset>
 
 
@@ -68,7 +86,7 @@
 
             <fieldset>
 
-                <legend>Dominio de los siguientes programas: </legend>
+                <legend><strong>Dominio de los siguientes programas:</strong></legend> <br>
                 <input name="programas" type="checkbox" value="writer"/> Writer
                 <input name="programas" type="checkbox" value="calc"/> Calc
                 <input name="programas" type="checkbox" value="base"/> Base
@@ -78,19 +96,22 @@
 
 
             <fieldset>
-                <legend>Tranajo con el siguiente Sistema Operativo:</legend>
+                <legend><strong>Trabajo con el siguiente Sistema Operativo:</strong></legend>
                     <label for="so">Sistema operativo</label> <br/>
                     <select id="so" name="so">
                     <option value="Linux" selected="selected">Linux</option>
                     <option value="windows">Windows</option>
                     <option value="mac">Mac</option>
                     <option value="otro">Otro</option>
-                    </select>
-
-
+         
+               </select>
+            </td>
+            </tr>
+        </table>
             </fieldset>
 
-    
+    <button>Reiniciar</button>
+    <input width="10%"  type="image" name="enviar" src="images/boton_enviar.jpg" />
 
 
 </body>
